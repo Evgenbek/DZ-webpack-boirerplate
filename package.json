@@ -7,7 +7,7 @@
     "build": "webpack --config=webpack.development.config.js",
     "build:prod": "webpack",
     "start": "webpack serve --config=webpack.development.config.js",
-    "lint": "eslint . && stylelint ./dist/**/*.css"
+    "lint": "eslint . && stylelint ./src/**/*.css"
   },
   "keywords": [],
   "author": "",
@@ -33,5 +33,8 @@
     "webpack-cli": "6.0.1",
     "webpack-dev-server": "5.2.1",
     "webpack-merge": "6.0.1"
+  },
+  "dependencies": {
+    "mini.css": "3.0.1"
   }
 }
